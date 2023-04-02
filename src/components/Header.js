@@ -54,7 +54,7 @@ export default class Header extends Component {
                 </Container>
             </Navbar>
             <main>
-                <Container>
+                <Container className="min-vw-100">
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/about" element={<About/>}/>
